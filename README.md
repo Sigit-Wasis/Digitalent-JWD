@@ -3,8 +3,9 @@
 Sistem Manajemen Paket Wisata adalah aplikasi web yang memungkinkan pengguna untuk mengelola paket wisata dan pemesanan paket wisata. Aplikasi ini dibangun menggunakan PHP native dan MySQL.
 
 ## Akun Administrator
-Username : admin123
-Password : rahasia
+| Username | Password |
+|----------|----------|
+| admin123 | rahasia  |
 
 ## Fitur
 
