@@ -42,7 +42,7 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
 
 5. Saya Asumsikan projek di clone pada folder htdocs
 
-# Kontak Kami
+## Kontak Kami
 
 Silakan hubungi kami melalui email jika Anda memiliki pertanyaan atau memerlukan bantuan.
 
