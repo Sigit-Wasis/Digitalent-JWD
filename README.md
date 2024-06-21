@@ -26,5 +26,32 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
 1. Clone repositori ini ke direktori server web Anda:
 
    ```bash
-   git clone https://github.com/username/sistem-manajemen-paket-wisata.git
- 
+   https://github.com/Sigit-Wasis/Digitalent-JWD.git
+
+2. Masuk ke repositori Digitalent-JWD
+
+   ```bash
+   cd Digitalent-JWD
+
+3. Jalankan perintah 
+
+   ```bash
+   composer update
+
+4. Kemudian Buka Pada Browser dengan url : http://localhost/Digitalent-JWD
+
+5. Saya Asumsikan projek di clone pada folder htdocs
+
+# Kontak Kami
+
+Silakan hubungi kami melalui email jika Anda memiliki pertanyaan atau memerlukan bantuan.
+
+## Informasi Kontak
+
+- **Email**: [hellowasis@gmail.com](mailto:hellowasis@gmail.com)
+
+Kami akan berusaha untuk menanggapi email Anda sesegera mungkin.
+
+---
+
+Terima kasih telah menghubungi kami!
