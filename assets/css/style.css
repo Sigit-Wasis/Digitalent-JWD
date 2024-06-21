@@ -1,0 +1,171 @@
+.carousel-item img {
+    height: 500px; /* Tinggi tetap */
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+    width: 100%; /* Pastikan gambar memenuhi lebar kontainer */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang semi-transparan */
+    padding: 10px; /* Padding untuk memberi ruang di sekitar teks */
+    border-radius: 10px; /* Membuat sudut-sudut membulat */
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 60%;
+}
+
+.video-youtube {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #000; /* Warna teks */
+    margin-right: 15px; /* Jarak antar item menu */
+}
+.nav-link:hover {
+    color: #007bff; /* Warna teks saat di-hover */
+    text-decoration: underline; /* Underline teks saat di-hover */
+}
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.contact-address-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;    
+}
+
+.single-contact-address-box {
+    position: relative;
+    display: block;
+    background: #131313;
+    padding: 85px 30px 77px;
+}
+
+.single-contact-address-box .icon-holder{
+    position: relative;
+    display: block;
+    padding-bottom: 24px;
+}
+
+.single-contact-address-box .icon-holder span:before{
+    font-size: 75px;
+}
+
+.single-contact-address-box h3{
+    color: #ffffff;
+    margin: 0px 0 9px;
+}
+
+.single-contact-address-box h2{
+    color: #a1deff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 19px;
+}
+
+.text-quote {
+    color: #fff;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.single-contact-address-box a{
+    color: #ffffff;
+}
+
+.single-contact-address-box.main-branch {
+    background: #a1deff;
+    padding: 53px 30px 51px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.single-contact-address-box.main-branch h3{
+    color: #131313;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 38px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.single-contact-address-box.main-branch .inner{
+    position: relative;
+    display: block;
+}
+
+.single-contact-address-box.main-branch .inner ul{
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-contact-address-box.main-branch .inner ul li{
+    position: relative;
+    display: block;
+    padding-left: 110px;
+    border-bottom: 1px solid #737373;
+    padding-bottom: 23px;
+    margin-bottom: 24px;
+}
+
+.single-contact-address-box.main-branch .inner ul li:last-child{
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.single-contact-address-box.main-branch .inner ul li .title{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: inline-block;
+}
+
+.single-contact-address-box.main-branch .inner ul li .title h4{
+    color: #131313;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #111111;
+}
+
+.single-contact-address-box.main-branch .inner ul li .text{
+    position: relative;
+    display: block;
+}
+
+label {
+    font-weight: bold;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.modal-footer .btn {
+    width: 200px; /* Atur lebar sesuai kebutuhan Anda */
+}
