@@ -34,14 +34,27 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
    ```bash
    cd Digitalent-JWD
 
-3. Jalankan perintah 
+3. Copy file .env.example menjadi .env
+
+   ```bash
+   cp .env.example .env
+
+4. Buka file .env untuk konfigurasi koneksi ke dalam database <br>
+   Sesuaikan dengan koneksi didatabase anda
+
+   DB_HOST=localhost
+   DB_USER=root
+   DB_PASS=123456
+   DB_NAME=digitalent
+
+5. Jalankan perintah 
 
    ```bash
    composer update
 
-4. Kemudian Buka Pada Browser dengan url : http://localhost/Digitalent-JWD
+6. Kemudian Buka Pada Browser dengan url : http://localhost/Digitalent-JWD
 
-5. Saya Asumsikan projek di clone pada folder htdocs
+7. Saya Asumsikan projek di clone pada folder htdocs
 
 ## Kontak Kami
 
