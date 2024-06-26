@@ -42,9 +42,9 @@ Pastikan Anda memiliki perangkat lunak berikut yang terinstal di sistem Anda:
 4. Buka file .env untuk konfigurasi koneksi ke dalam database <br>
    Sesuaikan dengan koneksi didatabase anda
 
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASS=123456
+   DB_HOST=localhost <br>
+   DB_USER=root <br>
+   DB_PASS=123456 <br>
    DB_NAME=digitalent
 
 5. Jalankan perintah 
