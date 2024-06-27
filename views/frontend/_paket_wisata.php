@@ -33,7 +33,6 @@
         while($row = $result->fetch_assoc()) {
             // Hitung harga total dan harga diskon
             $harga_total = $row['harga_penginapan'] + $row['harga_transportasi'] + $row['harga_makanan'];
-            $harga_diskon = $harga_total + 300000; // Misalnya ada diskon Rp. 300.000
         ?>
             <div class="col">
                 <div class="card mb-4 rounded-3 shadow-sm">
@@ -41,9 +40,7 @@
                         <h4 class="my-0 fw-normal" style="font-family: 'Oswald', sans-serif !important;"><?= $row['nama_paket']; ?></h4>
                     </div>
                     <div class="card-body">
-                        <h2 class="card-title pricing-card-title"><?= "Rp. " . number_format($harga_total, 0, ',', '.'); ?>
-                            <small class="text-body-secondary fw-light"><br><s><?= "Rp. " . number_format($harga_diskon, 0, ',', '.'); ?></s></small>
-                        </h2>
+                        <h2 class="card-title pricing-card-title"><?= "Rp. " . number_format($harga_total, 0, ',', '.'); ?></h2>
                         <ul class="list-unstyled mt-3 mb-4" style="font-weight: bold">
                             <li>Penginapan : <?= "Rp. " . number_format($row['harga_penginapan'], 0, ',', '.'); ?></li>
                             <li>Transportasi : <?= "Rp. " . number_format($row['harga_transportasi'], 0, ',', '.'); ?></li>
