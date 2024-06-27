@@ -54,6 +54,7 @@
         }
 
         // bebaskan memory
+        // untuk menghindari memory leak
         mysqli_free_result($result);
 
         // tutup koneksi dengan database MySQL
