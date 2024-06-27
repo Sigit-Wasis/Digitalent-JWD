@@ -3,6 +3,7 @@
     $base_url = "/digitalent"; // Sesuaikan dengan direktori aplikasi Anda
 
     // ambil pesan jika ada
+    // mengecek apakah null atau tidak
     if (isset($_GET["pesan"])) {
         $pesan = $_GET["pesan"];
     }
@@ -12,6 +13,9 @@
         // form telah disubmit, proses data
 
         // ambil nilai form
+        // trim() untuk menghilangkan spasi di awal dan akhir
+        // strip_tags() untuk menghilangkan tag html mencegah xss
+        // htmlentities() untuk mengubah karakter menjadi entitas html 
         $username = htmlentities(strip_tags(trim($_POST["username"])));
         $password = htmlentities(strip_tags(trim($_POST["password"])));
 
@@ -33,6 +37,7 @@
         include(__DIR__ . "/../../config/connection.php");
 
         // filter dengan mysqli_real_escape_string
+        // untuk menghindari sql injection misalkan karakter khusus ' "
         $username = mysqli_real_escape_string($link,$username);
         $password = mysqli_real_escape_string($link,$password);
 
